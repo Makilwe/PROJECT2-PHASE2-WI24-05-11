@@ -1,8 +1,8 @@
 import React from 'react';
 import Book from './Book';
 
-function BookList = ( { books }) => {
-  // Your code here
+const BookList = ( { books }) => {
+  // Creating BookList component that takes in a prop called books
 
   return (
     <div>
